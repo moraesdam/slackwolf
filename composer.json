@@ -7,8 +7,14 @@
             "email": "chris@stitchlabs.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/moraesdam/slack-client"
+        }
+    ],
     "require": {
-        "moraesdam/slack-client": "1.2.1",
+        "moraesdam/slack-client": "dev-master",
         "vlucas/phpdotenv": "^2.1"
     },
     "minimum-stability": "dev",
